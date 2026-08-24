@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+p{
+    color:red;
+    font-weight: bold;
+}
+h2{
+    color:brown;
+    font-size: small;
+}
