@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <label>Student Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email">
+        <br><br>
+
+        <label>Phone:</label>
+        <input type="tel" placeholder="Enter phone number">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+        <br><br>
+
+        <label>Branch:</label>
+        <select>
+            <option>CSE</option>
+            <option>AIML</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+        </select>
+        <br><br>
+
+        <label>Year:</label>
+        <input type="radio" name="year"> 1st Year
+        <input type="radio" name="year"> 2nd Year
+        <input type="radio" name="year"> 3rd Year
+        <input type="radio" name="year"> 4th Year
+        <br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+        <br><br>
+
+        <label>Address:</label><br>
+        <textarea rows="4" cols="30"
+                  placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
