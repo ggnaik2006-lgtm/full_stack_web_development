@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: lightblue;
+}
+
+.box {
+    width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+#today {
+    margin: 20px;
+    padding: 15px;
+    background: lightcyan;
+    border-radius: 10px;
+}
+
+#forecast {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: lightblue;
+    padding: 10px;
+    width: 140px;
+    border-radius: 10px;
+}
